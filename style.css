@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    height: 50px;
+    padding: 40px;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav>ul>li {
+    margin: 20px;
+    color: white;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>ul>li>a:hover {
+    color: black;
+    margin: 5px;
+}
+
+.hero {
+    height: 90vh;
+    background-image: url(/images/wakinawa\ logo.jpeg);
+    background-position: center;
+    background-size: cover background-repeat: no no-repeat;
+    text-align: center;
+    padding: 20rem;
+}
+
+.hero>h1 {
+    font-style: italic;
+    color: green;
+    font-size: 3rem;
+}
+
+.hero>p {
+    color: green;
+}
+
+.flo {
+    margin: 5px;
+}
+
+.gathoni {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    width: 90px;
+    background-color: green;
+}
+
+.gathoni:hover {
+    background-color: black;
+    color: white;
+}
+
+.hosea {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    width: 90px;
+    background-color: green;
+}
+
+.hosea:hover {
+    background-color: black;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(/images/Kenyan\ Farm\ Partners\ with\ Lamb\ and\ Hoe.png);
+    height: 100vh;
+
+}
+
+.sonia {
+    color: green;
+    font-style: italic;
+    font-size: 90px;
+}
+
+.dan {
+    color: white;
+    font-size: 20px;
+}
+
+.banana>span>ul>li {
+    font-size: 30px;
+    color: white;
+    align-items: center;
+}
+
+.products {
+    padding: 20px;
+}
+
+.card {
+    border: 2px solid green;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 10px 5px 5px green;
+    text-align: center;
+}
+
+.cia {
+    background-image: url(/images/raw\ beef.jpg);
+    background-position: center;
+    background-size: cover background-repeat: no no-repeat;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.lia {
+    background-image: url(/images/kuku\ za\ gathoni.jpg);
+    background-position: center;
+    background-size: cover background-repeat: no no-repeat;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.eli {
+    background-image: url(/images/sausages.jpg);
+    background-position: center;
+    background-size: cover background-repeat: no no-repeat;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.ana {
+    background-image: url(/images/nyanya.jpg);
+    background-position: center;
+    background-size: cover background-repeat: no no-repeat;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.mia {
+    background-image: url(/images/Wakinawa\ Animal\ Feeds\ Farmyard\ Showcase.png);
+    background-position: center;
+    background-size: cover background-repeat: no no-repeat;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.cola {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    width: 90px;
+    background-color: green;
+}
+
+.cola:hover {
+    background-color: black;
+    color: white;
+}
